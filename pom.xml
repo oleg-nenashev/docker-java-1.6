@@ -98,11 +98,11 @@
 			<artifactId>jersey-client</artifactId>
 			<version>${jersey.version}</version>
 		</dependency>
-		<dependency>
+	<!--	<dependency>
 			<groupId>de.gesellix</groupId>
 			 <artifactId>unix-socket-factory</artifactId>
 		 	<version>${unix-socket-factory.version}</version>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.apache.commons</groupId>
