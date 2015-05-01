@@ -8,13 +8,12 @@
 	</parent>
 
 	<groupId>com.github.docker-java</groupId>
-	<artifactId>docker-java</artifactId>
+	<artifactId>docker-java-1.6-compat</artifactId>
 	<packaging>jar</packaging>
-	<version>1.2.0</version>
+	<version>1.2.0-SNAPSHOT</version>
 
-	<name>docker-java</name>
-	<url>https://github.com/docker-java/docker-java</url>
-	<description>Java API Client for Docker</description>
+	<name>docker-java-1.6-compat</name>
+	<description>Java API Client for Docker. Based on docker-java from https://github.com/docker-java/docker-java</description>
 
 	<licenses>
 		<license>
@@ -24,13 +23,14 @@
 		</license>
 	</licenses>
 
+<!--
 	<scm>
 		<connection>scm:git:git@github.com:docker-java/docker-java.git</connection>
 		<url>git@github.com:docker-java/docker-java.git</url>
 		<developerConnection>scm:git:git@github.com:docker-java/docker-java.git</developerConnection>
 		<tag>docker-java-1.2.0</tag>
 	</scm>
-
+-->
 	<developers>
 		<developer>
 			<id>kpelykh</id>
@@ -44,8 +44,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<jdk.debug>true</jdk.debug>
 		<jdk.optimize>false</jdk.optimize>
-		<jdk.source>1.7</jdk.source>
-		<jdk.target>1.7</jdk.target>
+		<jdk.source>1.6</jdk.source>
+		<jdk.target>1.6</jdk.target>
 
 		<jersey.version>2.11</jersey.version>
 		<jackson-jaxrs.version>2.1.2</jackson-jaxrs.version>

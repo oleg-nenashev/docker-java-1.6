@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class AuthConfigurations {
 
 	@JsonProperty("configs")
-	private Map<String, AuthConfig> configs = new TreeMap<>();
+	private Map<String, AuthConfig> configs = new TreeMap<String, AuthConfig>();
 	
 	public void addConfig(AuthConfig authConfig){
 		configs.put(authConfig.getServerAddress(), authConfig);
