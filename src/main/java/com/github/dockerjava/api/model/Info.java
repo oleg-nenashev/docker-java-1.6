@@ -20,6 +20,11 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Info {
 
+        public Info (String id, String name) {
+            this.ID = id;
+            this.name = name;
+        }
+    
 	@JsonProperty("Containers")
 	private int containers;
 

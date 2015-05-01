@@ -14,6 +14,13 @@ public class Event {
 
     private long time;
 
+    public Event(String status, String id, String from, long time) {
+        this.status = status;
+        this.id = id;
+        this.from = from;
+        this.time = time;
+    }
+    
     public String getStatus() {
         return status;
     }
